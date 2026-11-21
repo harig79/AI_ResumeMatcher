@@ -1,0 +1,58 @@
+body{
+    background-image: url("./bg.webp");
+    height: 150vh;
+    margin: 0; 
+}
+header{
+    
+    padding: 20px;
+    
+}
+header>div{
+    color: white;
+}
+.logobox{
+   
+
+    display: inline-block;
+    width : 120px;
+}
+.logobox:hover{
+    color: pink;
+    transition: 0.3s;
+}
+.navbox{
+    
+    
+    display: inline-block;
+    width :700px;
+   right: 0px;
+   position: absolute;
+    
+
+} 
+.navbox>a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+.navbox>a:hover{
+    color: pink;
+}
+#homie{
+    color: pink;
+}
+#click{
+    background-color: pink;
+    left: 50px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#click:hover{
+    background-color: rgb(15, 14, 14);
+    color: pink;
+    transition: 0.3s;
+} 
